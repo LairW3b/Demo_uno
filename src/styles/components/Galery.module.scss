@@ -1,0 +1,47 @@
+@import '../globals/variables';
+
+.galery_content {
+
+  .description_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    // height: 100vh;
+
+    h2 {
+      background-color: $black;
+      color: white;
+      padding-top: 3rem;
+      font-size: 2rem;
+      text-align: center;
+      margin: 0;
+
+      @media (min-width: 768px) {
+        padding-bottom: 3rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+
+    .galery_text {
+      background-color: $black;
+      color: white;
+      padding: 2rem;
+      flex: 1;
+    }
+
+    .galery_img {
+      padding: 1rem;
+      flex: 1;
+
+      .img {
+        max-width: 100%;
+        height: auto;
+        border-radius: .5rem;
+      }
+    }
+  }
+}
