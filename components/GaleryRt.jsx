@@ -1,6 +1,7 @@
 import Image from "next/image"
 import parrillada from '../public/img/parrilladaUno.jpg'
 import style from '../src/styles/components/GaleryRt.module.scss'
+import 'aos/dist/aos.css'; 
 
 const GaleryRt = () => {
   return (
@@ -14,7 +15,13 @@ const GaleryRt = () => {
           en su máxima expresión.
         </p>
       </div>
-      <div className={style.galery_img}>
+      <div 
+        className={style.galery_img}
+        data-aos='fade-right'
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+
+      >
         <Image
           src={parrillada}
           width={700}

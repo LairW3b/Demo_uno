@@ -1,7 +1,7 @@
 import Image from "next/image"
-//import styles from "../src/styles/components/Galery.module.scss"
 import style from "../src/styles/components/GaleryIzq.module.scss"
 import parrillada from '../public/img/parrilladaDos.jpg'
+import 'aos/dist/aos.css';
 
 const GaleryIzq = props => {
   return (
@@ -15,7 +15,12 @@ const GaleryIzq = props => {
           en su máxima expresión.
         </p>
       </div>
-      <div className={style.galery_img}>
+      <div 
+        className={style.galery_img}
+        data-aos='fade-left' 
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <Image
           src={parrillada}
           width={700}
