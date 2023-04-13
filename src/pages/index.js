@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import About from '../../components/About'
+import ContactUs from '../../components/ContactUs'
 import Galery from '../../components/Galery'
 import Header from '../../components/Header'
+import Testimonials from '../../components/Testimonials'
+import Ubication from '../../components/Ubication'
+import Fotter from '../../components/Fotter'
 
 export default function Home() {
   return (
@@ -14,9 +18,12 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <About />
-        <Galery />
-        
+        {<About />}
+        {<Galery />}
+        {<Testimonials />}
+        <Ubication />
+        <ContactUs />
+        <Fotter />
       </main>
     </>
   )

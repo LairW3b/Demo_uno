@@ -1,11 +1,11 @@
 import Image from "next/image"
 import parrillada from '../public/img/parrilladaUno.jpg'
-import style from '../src/styles/components/GaleryRt.module.scss'
+import style from '../src/styles/components/Galery.module.scss'
 import 'aos/dist/aos.css'; 
 
 const GaleryRt = () => {
   return (
-    <div className={`${style.galery_right}`}>
+    <div className={`${style.galery_item} `}>
       <div className={style.galery_text}>
         <h2>Nuestras Delicias 🤤</h2>
         <p>
@@ -16,7 +16,7 @@ const GaleryRt = () => {
         </p>
       </div>
       <div 
-        className={style.galery_img}
+        className={`${style.galery_img} ${style.galery_img_rigth}`}
         data-aos='fade-right'
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"

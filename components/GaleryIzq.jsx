@@ -1,11 +1,11 @@
 import Image from "next/image"
-import style from "../src/styles/components/GaleryIzq.module.scss"
+import style from "../src/styles/components/Galery.module.scss"
 import parrillada from '../public/img/parrilladaDos.jpg'
 import 'aos/dist/aos.css';
 
 const GaleryIzq = props => {
   return (
-    <div className={style.galery_Izq}>
+    <div className={style.galery_item}>
       <div className={style.galery_text}>
         <h2>Nuestras Delicias 🤤</h2>
         <p>

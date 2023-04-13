@@ -15,7 +15,7 @@ const About = () => {
       </div>
 
       <h2>¡Bienvenidos al restaurante más delicioso de la ciudad!</h2>
-      
+
       <p>
         En nuestro restaurante ofrecemos una experiencia culinaria única y deliciosa 
         para satisfacer todos los paladares. 
@@ -37,7 +37,7 @@ const About = () => {
         ubicación como llegar
         contacto
         footer-social media
-      */}
+        */}
     </section>
   )
 }
