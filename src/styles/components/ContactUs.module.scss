@@ -26,12 +26,13 @@
         display: block;
       }
 
-      .input, textarea{
+      .input, .textarea{
         border-radius: .5rem;
         background-color: $black;
         border-style: none;
         border: 1px solid white;
         padding: .5rem;
+        color: white;
       }
 
       .input {
