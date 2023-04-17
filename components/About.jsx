@@ -2,6 +2,8 @@ import React from 'react'
 import style from '../src/styles/components/About.module.scss'
 import Image from 'next/image'
 import cubiertos from '../public/img/cubiertos2.png'
+//import cubiertos from '../public/img/cubiertosUno.png'
+import carne from '../public/img/carnita.jpg'
 
 const About = () => {
   return (
@@ -9,35 +11,32 @@ const About = () => {
       <div className={style.about_img}>
         <Image
           src={cubiertos}
-          width={80}
+          width={100}
           alt='cubiertos'
         />
       </div>
 
-      <h2>¡Bienvenidos al restaurante más delicioso de la ciudad!</h2>
+      <Image 
+        src={carne}
+        alt='carne asadea'
+        className={style.img_bg}
+      />
 
-      <p>
-        En nuestro restaurante ofrecemos una experiencia culinaria única y deliciosa 
-        para satisfacer todos los paladares. 
-        Nuestro menú cuidadosamente elaborado ofrece una gran variedad de platillos 
-        frescos y de alta calidad, que fusionan 
-        sabores y aromas de diferentes partes del mundo.
-      </p>
-      <p>
-        Nuestro servicio excepcional y nuestro ambiente acogedor y amigable le 
-        brindarán una experiencia única e inolvidable. ¡Venga a visitarnos y pruebe 
-        la mejor comida en nuestra ciudad!
-      </p>
-      {/* 
-        header main 
-        presentación, description
-        personal*
-        mini galery
-        testimonios 
-        ubicación como llegar
-        contacto
-        footer-social media
-        */}
+      <div className={style.about_text}>
+        <h2>¡Bienvenido a futura landing page!</h2>
+        <p>
+          En esta sección puedes dar a conocer los lo que concideres relevante de tu negocio 
+          o emprendimeinto ejemplo:
+        </p>
+        <p>
+          En nuestro restaurante ofrecemos una experiencia culinaria única y deliciosa 
+          para satisfacer todos los paladares. 
+          Nuestro menú cuidadosamente elaborado ofrece una gran variedad de platillos 
+          frescos y de alta calidad, que fusionan 
+          sabores y aromas de diferentes partes del mundo.
+        </p>
+
+      </div>
     </section>
   )
 }

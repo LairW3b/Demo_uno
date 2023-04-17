@@ -61,23 +61,21 @@ const Fotter = () => {
       {/*social media*/}
       <div className={styles.social_media}>
         <div>
-          <a href="#"><FaFacebookSquare/></a>
+          <a 
+            target='_blank'
+            href="https://www.facebook.com/LairDev"><FaFacebookSquare/></a>
         </div>
         <div>
-          <a href="#"><FaInstagramSquare/></a>
+          <a 
+            //target='_blank'
+            href="#"><FaInstagramSquare/></a>
         </div>
         <div>
-          <a href='#'><FaTiktok/></a>
+          <a 
+            target='_blank'
+            href='https://www.tiktok.com/@lairdev'><FaTiktok/></a>
         </div>
       </div>
-      {/*información de contacto:
-          1.Dirección
-          2.Número de telefono
-          3.Correo electrónico
-          4.Horario de atención
-          5.Enlacens a redes sociales
-          6.Información legal
-          */}
     </footer>
   )
 }

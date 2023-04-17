@@ -5,29 +5,64 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 4rem;
+  margin: 2rem;
   color: black;
-  background-color: white;
+  //background-color: white;
   height: 100vh;
 
-  @media (min-width: 768px) {
-    padding: 0 20rem;
-  }
+  .img_bg {
+    position: absolute;
+    right: 25rem;
+    top:  130%;
+    z-index: -1;
+    width: 70%;
+    height:  70%;
+    transform: rotate(30deg);
+    opacity: .3;
+    border-radius: 3rem;
+
+    @media (min-width: 768px) {
+      width: 70%;
+      height: 100%;
+      right: 90rem;
+      top: 116%;
+    }
+  } 
+
   .about_img {
     width: auto;
   }
 
-  h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 1rem;
+  .about_text {
+    max-width: 80rem;
+    margin: auto;
+    margin: 0;
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 2rem 0 2rem 0;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 1.8rem;
+      line-height: 1.4;
+      margin: 1rem;
+      font-weight: 500;
+    }
   }
 
-  p {
-    text-align: justify;
-    font-size: 1.8rem;
-    line-height: 1.2;
-  }
+  //background-image:
+  //linear-gradient(120deg, 
+  //rgba(23,23,24,0.9332107843137255) 0%, 
+  //rgba(88,88,112,0.7035189075630253) 0%, 
+  //rgba(172,189,193,0.4654236694677871) 0%), 
+  //url(../../../public/img/carnita.jpg);
+  //background-repeat: no-repeat;
+  //background-attachment: fixed;
+  //background-position: left;
+  //background-size: 50rem;
+
 
 }
 

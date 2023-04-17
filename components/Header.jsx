@@ -2,6 +2,7 @@ import React from 'react'
 import style from '../src/styles/components/Header.module.scss'
 import Image from 'next/image'
 import logo from '../public/img/logo.png'
+//import logo from '../public/tuLogo.svg'
 import arrow from '../public/img/arrow.png'
 
 const Header = () => {

@@ -46,6 +46,23 @@
         height: 5rem;
         margin: auto;
         border-radius: 1rem;
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 3rem;
+          letter-spacing: .6rem;
+
+          .icon_whatsapp {
+            font-size: 2rem;
+          }
+
+          span {
+            text-transform: uppercase;
+          }
+
+        }
       }
     }
   }

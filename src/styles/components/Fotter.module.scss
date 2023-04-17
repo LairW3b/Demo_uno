@@ -49,11 +49,22 @@
     justify-content: center;
     gap: 4rem;
     font-size: 7rem;
-    margin: 1rem;
 
     @media (min-width: 768px) {
       justify-content: space-evenly;
     }
+
+    /*div {*/
+      /*width: 5rem;*/
+      /*height: 5rem;*/
+      /*display: flex;*/
+      /*justify-content: center;*/
+      /*align-items: center;*/
+      /*background-color: black;*/
+      /*padding: 3rem;*/
+      /*border-radius: 3rem;*/
+      /*margin-bottom: 1rem;*/
+    /*}*/
 
     a {
       text-decoration: none;

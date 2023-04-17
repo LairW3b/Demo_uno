@@ -7,12 +7,12 @@ const GaleryRt = () => {
   return (
     <div className={`${style.galery_item} `}>
       <div className={style.galery_text}>
-        <h2>Nuestras Delicias 🤤</h2>
+        <h2> Muestra tus productos o servicios 🤤</h2>
         <p>
-          Un buen corte de carne debe ser cuidadosamente seleccionado y preparado 
-          con habilidad y dedicación. Cada bocado debe ser una experiencia culinaria 
-          única que despierte tus sentidos y te haga apreciar los sabores de la carne 
-          en su máxima expresión.
+          De la vista nace el amor, por ello incluyo esta sección donde puedes 
+          mostrar tus productos, servicios o promociones, para que tus clientes no 
+          duden en contactarte.<br></br>
+          (Puede incluir cuatro imagenes con su respectiva descripción)
         </p>
       </div>
       <div 

@@ -1,5 +1,6 @@
 import React, { useState} from 'react'
 import styles from '../src/styles/components/ContactUs.module.scss'
+import { FaWhatsapp } from 'react-icons/fa'
 
 const ContactUs = () => {
 
@@ -10,11 +11,11 @@ const ContactUs = () => {
     e.preventDefault() 
     console.log(!name === '')
     //if(!name === '') {
-      let url = 
-        `https://wa.me/522222385895?text=Hola asadero, Mi nombre es %20${name}%20%0A${mnsj}`
-      window.open(url)
+    let url = 
+      `https://wa.me/522222385895?text=Hola asadero, Mi nombre es %20${name}%20%0A${mnsj}`
+    window.open(url)
     //} else {
-      //console.log('Campo requerido')
+    //console.log('Campo requerido')
     //}
 
     setName('')
@@ -25,6 +26,7 @@ const ContactUs = () => {
     <section className={styles.contact_content}>
       <div className={styles.content_from}>
         <h2>Contáctanos</h2>
+        <p><small>¡Este formulario redirige a whatsapp!</small></p>
         <form action='#' className={styles.form}>
           <input 
             type='text' 
@@ -49,11 +51,18 @@ const ContactUs = () => {
             className={styles.form_btn}
             onClick={handleMessage}
           >
-            Enviar
+            <div>
+
+              <FaWhatsapp 
+                className={styles.icon_whatsapp}
+              />
+              <span>Enviar</span>
+            </div>
           </button>
-          
-          
-          
+
+
+
+
 
         </form>
       </div>

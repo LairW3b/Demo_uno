@@ -17,6 +17,7 @@ const Testimonials = () => {
         autoplay={{
           delay:5000
         }}
+        loop='true'
       >
         <SwiperSlide>
           <div className={style.testimony}>
@@ -54,7 +55,7 @@ const Testimonials = () => {
           <div className={`${style.testimony}`}>
             <div>
               <Image
-                src={cubiertos}
+                src={chef}
                 width={100}
                 alt='cubiertos'
                 className={style.testimony_img}
