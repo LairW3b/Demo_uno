@@ -17,7 +17,7 @@ const Header = () => {
           />
         </div>
         <div className={style.title}>
-          <h1 >"¡Sabor que despierta tus sentidos!"</h1>
+          <h1 >¡Sabor que despierta tus sentidos!</h1>
           <p>
             Descubre el sabor auténtico en nuestro restaurante.
           </p>
