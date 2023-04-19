@@ -27,7 +27,7 @@ const Header = () => {
           <Image
             src={arrow}
             width={80}
-            height={25}
+            height={40}
             alt='indicador desplazar hacia abajo'
           />
         </div>
